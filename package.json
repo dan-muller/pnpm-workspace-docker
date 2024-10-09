@@ -1,0 +1,17 @@
+{
+  "name": "pnpm-workspace-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pkg": "pnpm run --filter '*'",
+    "dev:start": "pnpm pkg dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.12.1",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
