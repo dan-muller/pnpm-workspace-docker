@@ -12,7 +12,6 @@ RUN pnpm run -r build
 
 # Deploy each package in the monorepo workspace
 RUN pnpm deploy --filter=app --prod /prod/app
-CMD ["sh"]
 
 FROM base AS app
 
